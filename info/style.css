@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+}
+body{
+	width: 100%;
+	background:lightblue;
+	font-family: sans-serif;
+	
+}
+header{
+	width: 100%;
+	height:120px;
+	background-color: #37988e;
+	position: fixed;
+}
+header img {
+	float: left;
+	height: 120px;
+	width: 120px;
+}
+header h2 {
+	font-size: 50px;
+	text-align: center;
+	padding-top: 20px;
+}
+header p{
+	text-align: center;
+
+}
+body .menu{
+	margin:0;
+	width: 100%;
+	position: fixed;
+	padding-top: 120px;
+}
+body .menu ul{
+	background-color: #37988e;
+	padding: 0 0px;
+	list-style: none;
+	position: relative;
+	display: inline-table;
+	width: 100%;
+
+}
+body .menu ul li {
+	float: left;
+}
+body .menu ul li:hover{
+	background: #d68d9a;
+}
+body .menu ul li:hover{
+	background: #000;
+}
+body .menu ul li a {
+	display: block;
+	padding: 20px;
+	color: #fff;
+	text-decoration: none;
+}
+body .menu ul .cari{
+	float: right;
+
+}
+body .menu ul .cari form{
+	width: 300px;
+	margin: 30;
+}
+body .menu ul .cari form .search{
+	padding: 8px 15px;
+	background: rgba(50,50,50,0.1);
+	border: 0px solid #dbdbdb;
+}
+body .menu ul .cari form .button{
+	position: relative;
+	padding: 8px 15px;
+	left: -4px;
+	border: 2px solid #53bd84;
+	background-color: #53bd84;
+	color: #fafafa;
+}
+body .menu ul .cari form .button:hover{
+	background-color: #fafafa;
+	color: #207cca;
+}
+.konten .body{
+	
+	border-style: outset;
+	padding: 30px;
+}
+.konten{
+	padding:200px;
+}
+.konten .body h2{
+	margin: 20px;
+	padding-bottom: 20px;
+}
